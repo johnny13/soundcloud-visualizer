@@ -438,7 +438,7 @@ var Visualizer = function() {
  */
 var SoundcloudLoader = function(player,uiUpdater) {
     var self = this;
-    var client_id = "YOUR_SOUNDCLOUD_CLIENT_ID"; // to get an ID go to http://developers.soundcloud.com/
+    var client_id = "237d195ad90846f5e6294ade2e8cf87b"; // to get an ID go to http://developers.soundcloud.com/
     this.sound = {};
     this.streamUrl = "";
     this.errorMessage = "";
@@ -641,7 +641,7 @@ window.onload = function init() {
     aboutButton.addEventListener('click', function(e) {
         e.preventDefault();
         var message = document.getElementById('info').innerHTML;
-        uiUpdater.displayMessage("About", message);
+        uiUpdater.displayMessage(" ", message);
     });
 
     window.addEventListener("keydown", keyControls, false);

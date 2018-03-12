@@ -141,13 +141,13 @@ a:hover, a:active {
 }
 #messageBox {
     position: absolute;
-    top: 30%;
+    top: 1px;
     width: 100%;
     padding: 20px 0;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     opacity: 1;
-    max-height: 500px;
+    max-height: 550px;
     -webkit-transition: opacity 0.5s, max-height 0.5s, padding 0.5s;
     -moz-transition: opacity 0.5s, max-height 0.5s, padding 0.5s;
     transition: opacity 0.5s, max-height 0.5s, padding 0.5s;
@@ -165,6 +165,23 @@ a:hover, a:active {
 #messageBox a:link, #messageBox a:visited {
     color: #666;
 }
+
+.i-wrapper {
+  width:100%;
+  max-width:650px;
+  display:block;
+  position:relative;
+  margin: 0 auto;
+  text-align:left;
+}
+
+.i-wrapper h3,
+.i-wrapper h4 {
+  text-align:left;
+  color:#666;
+  margin:10px auto;
+}
+
 footer {
     position: absolute;
     bottom: 0;
